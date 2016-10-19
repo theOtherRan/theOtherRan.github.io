@@ -1,0 +1,110 @@
+/* Table of Contents
+------------------------------------
+Button Default
+Button Custom Styles
+Button Effects
+*/
+
+/*
+  ========================================
+  Button Default
+  ========================================
+*/
+
+.button {
+	width: 100px;
+	height: 50px;
+	background-color: #DEC3A5;
+	border: 0;
+	border-bottom: 4px solid #C9B095;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight:900;
+	line-height: 3em;
+	margin-right: 15px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/*
+  ========================================
+  Button Custom Styles
+  ========================================
+*/
+
+div {
+	background-color: #DFA69B !important;
+	border-bottom: 4px solid #C29288 !important;
+}
+a {
+	background-color: #DFDAA3 !important;
+	border-bottom: 4px solid #CCC896 !important;
+}
+.button-sm {
+	width: 125px;
+	height: 25px;
+	background-color: #C7E09E !important;
+	border-bottom: 4px solid #B8CF92 !important;
+	font-size: 12px;
+}
+.button-md {
+	width: 145px;
+	height: 35px;
+	background-color: #B7DF9F !important;
+	border-bottom: 4px solid #A6CB90 !important;
+	font-size: 14px;
+}
+.button-lg {
+	width: 165px;
+	height: 45px;
+	background-color: #A6DC99 !important;
+	border-bottom: 4px solid #91C086 !important;
+}
+
+/*
+  ========================================
+  Button Effects
+  ========================================
+*/
+
+.button:hover {
+	/* background-color: hsla(360,50%,60%,0.5); */
+	color: #000;
+	cursor: pointer;
+}
+
+
+/* div button: basic button */
+div:active {
+	border-bottom: 4px solid #DFA69B !important;
+	border-top: 4px solid #C29288 !important;
+}
+
+/* button with button class */
+.button:active {
+	border-bottom: 4px solid #DEC3A5;
+	border-top: 4px solid #C9B095;
+}
+
+/* anchor with button class */
+a:active {
+	border-bottom: 4px solid #DFDAA3 !important;
+	border-top: 4px solid #CCC896 !important;
+}
+
+.button-sm:active {
+	border-bottom: 4px solid #C7E09E !important;
+	border-top: 4px solid #B8CF92 !important;
+}
+.button-md:active {
+	border-bottom: 4px solid #B7DF9F !important;
+	border-top: 4px solid #A6CB90 !important;
+}
+.button-lg:active {
+	border-bottom: 4px solid #A6DC99 !important;
+	border-top: 4px solid #91C086 !important;
+}
